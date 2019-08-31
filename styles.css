@@ -2,7 +2,18 @@ body {
     background-color: AntiqueWhite;
     font-family: sans-serif;
 }
-h1 {
-    position: relative
-    
+/* h1, p, h2, table {
+    display: inline-block;
+    align-content: center   
+}*/
+header, section {
+    display: block;
+    justify-items: center;
+    padding: 10px 5px 40px 5px;
+    margin: 5px;
+}
+h1, h2 {
+    text-align: center;
+    padding: 0px 0px 20px;
+
 }
